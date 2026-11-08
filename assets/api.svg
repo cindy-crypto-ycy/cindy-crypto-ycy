@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="246" viewBox="0 0 580 246" role="img" aria-labelledby="title desc">
+<title id="title">API TESTING</title>
+<desc id="desc">Trust the contract. Challenge the boundaries.. AUTH / BOUNDARIES / IDEMPOTENCY / DATA</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d30"/><stop offset="1" stop-color="#070e1b"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#5cf2c5"/><stop offset="1" stop-color="#7bbcff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#145e63" stop-opacity=".48"/><stop offset="1" stop-color="#0a1423" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 H 0 V 36" fill="none" stroke="#7bbcff" stroke-opacity=".055"/></pattern>
+  <clipPath id="frame"><rect width="580" height="246" rx="20"/></clipPath>
+</defs>
+<style>
+text { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+.title { font-family: 'Arial Black', 'DejaVu Sans', sans-serif; font-weight: 900; }
+.orbit { transform-origin: 930px 219px; animation: orbit 24s linear infinite; }
+.reverse { animation-direction: reverse; animation-duration: 36s; }
+.pulse { animation: pulse 3s ease-in-out infinite; }
+.cursor { animation: cursor 1.4s steps(1) infinite; }
+.flow { stroke-dasharray: 9 15; animation: flow 3s linear infinite; }
+.trace { stroke-dasharray: 700; animation: trace 5s ease-in-out infinite; }
+.scan { animation: scan 5s ease-in-out infinite; }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+@keyframes cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+@keyframes flow { to { stroke-dashoffset: -96; } }
+@keyframes trace { 0% { stroke-dashoffset: 700; } 65%,100% { stroke-dashoffset: 0; } }
+@keyframes scan { 0%,100% { transform: translateX(0); opacity: .3; } 50% { transform: translateX(350px); opacity: .9; } }
+@media (prefers-reduced-motion: reduce) { .orbit,.pulse,.cursor,.flow,.trace,.scan { animation: none; } }
+</style>
+<g clip-path="url(#frame)">
+<rect x="0" y="0" width="580" height="246" rx="20" fill="url(#bg)" />
+<rect x="0" y="0" width="580" height="246" rx="0" fill="url(#grid)" />
+<text x="26" y="31" font-size="11" fill="#7bbcff" class="" letter-spacing="1.8">QUALITY LAB / 02</text><text x="26" y="68" font-size="26" fill="#eaf3ff" class="title" >API TESTING</text><text x="26" y="94" font-size="13" fill="#a0b5c8" class="" >Trust the contract. Challenge the boundaries.</text><text x="546" y="64" font-size="53" fill="#1d3146" class="title" text-anchor="end">02</text><line x1="26" y1="114" x2="554" y2="114" stroke="#243a4c" /><line x1="98" y1="159" x2="482" y2="159" stroke="#7bbcff" class="flow" stroke-width="2"/><rect x="28" y="134" width="136" height="49" rx="8" fill="#102235" stroke="#325370"/><text x="96" y="163" font-size="13" fill="#7bbcff" class="" text-anchor="middle">REQUEST</text><text x="96" y="201" font-size="9" fill="#829bb2" class="" text-anchor="middle">INPUT</text><rect x="222" y="134" width="136" height="49" rx="8" fill="#102235" stroke="#325370"/><text x="290" y="163" font-size="13" fill="#7bbcff" class="" text-anchor="middle">ASSERT</text><text x="290" y="201" font-size="9" fill="#829bb2" class="" text-anchor="middle">CONTRACT</text><rect x="416" y="134" width="136" height="49" rx="8" fill="#102235" stroke="#325370"/><text x="484" y="163" font-size="13" fill="#7bbcff" class="" text-anchor="middle">RESPONSE</text><text x="484" y="201" font-size="9" fill="#829bb2" class="" text-anchor="middle">OUTPUT</text><text x="26" y="225" font-size="11" fill="#7bbcff" class="" letter-spacing=".5">AUTH / BOUNDARIES / IDEMPOTENCY / DATA</text>
+</g>
+<rect x="1" y="1" width="578" height="244" rx="19" fill="none" stroke="#2c4054"/>
+</svg>

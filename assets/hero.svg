@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Cindy | Quality Engineer</title>
+<desc id="desc">Animated quality radar and terminal. Performance, API, automation and AI workflows across Web and App.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d30"/><stop offset="1" stop-color="#070e1b"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#5cf2c5"/><stop offset="1" stop-color="#7bbcff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#145e63" stop-opacity=".48"/><stop offset="1" stop-color="#0a1423" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 H 0 V 36" fill="none" stroke="#7bbcff" stroke-opacity=".055"/></pattern>
+  <clipPath id="frame"><rect width="1200" height="430" rx="20"/></clipPath>
+</defs>
+<style>
+text { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+.title { font-family: 'Arial Black', 'DejaVu Sans', sans-serif; font-weight: 900; }
+.orbit { transform-origin: 930px 219px; animation: orbit 24s linear infinite; }
+.reverse { animation-direction: reverse; animation-duration: 36s; }
+.pulse { animation: pulse 3s ease-in-out infinite; }
+.cursor { animation: cursor 1.4s steps(1) infinite; }
+.flow { stroke-dasharray: 9 15; animation: flow 3s linear infinite; }
+.trace { stroke-dasharray: 700; animation: trace 5s ease-in-out infinite; }
+.scan { animation: scan 5s ease-in-out infinite; }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+@keyframes cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+@keyframes flow { to { stroke-dashoffset: -96; } }
+@keyframes trace { 0% { stroke-dashoffset: 700; } 65%,100% { stroke-dashoffset: 0; } }
+@keyframes scan { 0%,100% { transform: translateX(0); opacity: .3; } 50% { transform: translateX(350px); opacity: .9; } }
+@media (prefers-reduced-motion: reduce) { .orbit,.pulse,.cursor,.flow,.trace,.scan { animation: none; } }
+</style>
+<g clip-path="url(#frame)">
+<rect x="0" y="0" width="1200" height="430" rx="20" fill="url(#bg)" />
+<rect x="0" y="0" width="1200" height="430" rx="0" fill="url(#grid)" />
+<ellipse cx="920" cy="210" rx="360" ry="290" fill="url(#halo)"/><line x1="30" y1="53" x2="1170" y2="53" stroke="#243a4c" /><text x="85" y="33" font-size="12" fill="#a0b5c8" class="" >cindy / quality-lab</text><text x="1164" y="33" font-size="11" fill="#5cf2c5" class="" text-anchor="end">WEB + APP  /  HUMAN + AI</text><text x="44" y="99" font-size="12" fill="#a0b5c8" class="" letter-spacing="2">// CURIOUS MIND. CRITICAL EYE.</text><text x="38" y="198" font-size="106" fill="url(#accent)" class="title" letter-spacing="-6">CINDY.</text><text x="44" y="245" font-size="31" fill="#f2f7ff" class="title" letter-spacing="1">QUALITY ENGINEER</text><text x="44" y="278" font-size="17" fill="#b6c8d9" class="" >Explore the edges. Protect the experience.</text><rect x="44" y="306" width="546" height="45" rx="8" fill="#0b1725" stroke="#2a4656"/><text x="60" y="334" font-size="14" fill="#5cf2c5" class="" >$ test --scope web,app --mindset curious</text><rect x="556" y="319" width="9" height="17" rx="1" fill="#5cf2c5" class="cursor"/><text x="44" y="391" font-size="12" fill="#a0b5c8" class="" letter-spacing="1.4">PERFORMANCE / API / AUTOMATION / AI</text><line x1="680" y1="80" x2="680" y2="387" stroke="#243a4c" /><circle cx="930" cy="219" r="139" fill="none" stroke="#294557" stroke-dasharray="2 8"/><circle cx="930" cy="219" r="111" fill="none" stroke="#244b57"/><g class="orbit"><circle cx="930" cy="219" r="139" fill="none" stroke="#5cf2c5" stroke-opacity=".55" stroke-dasharray="80 794" stroke-width="2"/><circle cx="930" cy="80" r="5" fill="#5cf2c5"/></g><g class="orbit reverse"><circle cx="930" cy="330" r="4" fill="#7bbcff"/><circle cx="930" cy="219" r="111" fill="none" stroke="#7bbcff" stroke-opacity=".5" stroke-dasharray="55 642"/></g><line x1="770" y1="219" x2="1090" y2="219" stroke="#1c3d49" /><line x1="930" y1="60" x2="930" y2="378" stroke="#1c3d49" /><path d="M930 140 L993 166 V224 Q993 272 930 302 Q867 272 867 224 V166 Z" fill="#102733" stroke="#5cf2c5" stroke-width="2"/><path d="M905 213 L923 231 L956 193" fill="none" stroke="#5cf2c5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="930" y="268" font-size="12" fill="#b9eadf" class="" text-anchor="middle" letter-spacing="2">QUALITY</text><rect x="754" y="103" width="94" height="27" rx="5" fill="#122333" stroke="#335064"/><text x="801" y="121" font-size="10" fill="#7bbcff" class="" text-anchor="middle">EXPLORE</text><rect x="1031" y="304" width="94" height="27" rx="5" fill="#122333" stroke="#335064"/><text x="1078" y="322" font-size="10" fill="#5cf2c5" class="" text-anchor="middle">VERIFY</text><text x="930" y="391" font-size="12" fill="#a0b5c8" class="" text-anchor="middle" letter-spacing="3">SIGNAL &gt; NOISE</text><circle cx="37" cy="29" r="4" fill="#ff8e8e"/><circle cx="52" cy="29" r="4" fill="#ffd18b"/><circle cx="67" cy="29" r="4" fill="#5cf2c5"/>
+</g>
+<rect x="1" y="1" width="1198" height="428" rx="19" fill="none" stroke="#2c4054"/>
+</svg>
